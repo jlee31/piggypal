@@ -23,13 +23,14 @@ import Navbar from './components/NavBar.jsx';
 // CODE
 
 function App() {
-  const router = createBrowserRouter(
-  createRoutesFromElements(
-    <Route path="/" element={<HomePage />} />
-    
-  
-    )
-  );
+  const router = createBrowserRouter([
+    {path:'/', element:<HomePage/>},
+    {path:'/wishlist', element:<Wishlist/>},
+    {path:'/budget', element:<BudgetPlanner/>},
+    {path:'/statistics', element:<Stats/>},
+    {path:'/purchases', element:<BigPurchases/>},
+
+  ]);
   return <RouterProvider router={router} />;  
 }
 
