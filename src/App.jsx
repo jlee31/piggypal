@@ -12,7 +12,13 @@ import {
 
 // Pages
 
-import HomePage from './components/HomePage'
+import HomePage from './pages/HomePage.jsx';
+import Wishlist from './pages/Wishlist.jsx';
+import BudgetPlanner from './pages/BudgetPlanner.jsx';
+import BigPurchases from './pages/BigPurchases.jsx';
+import Stats from './pages/Stats.jsx';
+import Navbar from './components/NavBar.jsx';
+
 
 // CODE
 
