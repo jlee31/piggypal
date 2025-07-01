@@ -8,6 +8,8 @@ Front-end: React
 Styling: Tailwind-CSS
 Database: Postgres
 
+Backend Decisions still pending
+
 
 ### Install Dependencies
 
